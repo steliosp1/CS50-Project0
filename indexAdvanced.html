@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Search</title>
+  <link rel="stylesheet" href="advancedSearchStyling.css">
+</head>
+<body>
+  <header>
+    <ul>
+      <li id="logo"><a href="index.html"><img src="smallGoogleLogo.png"></a></li>
+      <li id="back_to_main"><a href="index.html">Google Search</a></li>
+    </ul>
+  </header>
+  <section>
+    <h2>Advanced Search</h2>
+
+    <div class="container">
+      <form action="https://google.com/search" name="f">
+        <div class="header3">
+          <h3>Find Pages with ...</h3>
+        </div>
+        <div class="label_item1">
+          <label for="field1">all these words:</label>
+        </div>
+        <div class="input_item1">
+          <input type="text" class="textinput" id="field1" value=""  name="as_q">
+        </div>
+        <br>
+          <div class="label_item2">
+            <label for="field2">this exact word or phrase: </label>
+          </div>
+          <div class="input_item2">
+            <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+          </div>
+        <br>
+          <div class="label_item3">
+            <label for="field3">any of this words: </label>
+          </div>
+        <div class="input_item3">
+          <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+        </div>
+        <br>
+        <div class="label_item4">
+          <label for="field4">none of these words: </label>
+        </div>
+        <div class="input_item4">
+          <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+        </div>
+        <div class="button">
+          <input type="submit" value="Advanced search">
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
